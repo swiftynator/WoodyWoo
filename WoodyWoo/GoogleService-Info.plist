@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>780348347125-jp3045794pbpo74tnruf59hk48f1f8f5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.780348347125-jp3045794pbpo74tnruf59hk48f1f8f5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAPrgh8xLFTotc97MfhCFAF_rPWTCleLBw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>780348347125</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.t-sterone.WoodyWoo</string>
+	<key>PROJECT_ID</key>
+	<string>woodywoo-5fb69</string>
+	<key>STORAGE_BUCKET</key>
+	<string>woodywoo-5fb69.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:780348347125:ios:54809a370f8b835b</string>
+	<key>DATABASE_URL</key>
+	<string>https://woodywoo-5fb69.firebaseio.com</string>
+</dict>
+</plist>

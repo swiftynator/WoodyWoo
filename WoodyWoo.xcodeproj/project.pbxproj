@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		10D02940209849A100565950 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D0293F209849A100565950 /* AppDelegate.swift */; };
-		10D02942209849A100565950 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D02941209849A100565950 /* ViewController.swift */; };
 		10D02945209849A100565950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D02943209849A100565950 /* Main.storyboard */; };
 		10D02947209849A200565950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10D02946209849A200565950 /* Assets.xcassets */; };
 		10D0294A209849A200565950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D02948209849A200565950 /* LaunchScreen.storyboard */; };
+		10D0295220984A6300565950 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10D0295120984A6300565950 /* GoogleService-Info.plist */; };
+		10D0295C20985ACE00565950 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D0295B20985ACE00565950 /* SignInViewController.swift */; };
+		10D0295E20985B0500565950 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D0295D20985B0500565950 /* SignUpViewController.swift */; };
+		10D0296020988A1700565950 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D0295F20988A1700565950 /* HomeViewController.swift */; };
+		10D0296220988A2700565950 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D0296120988A2700565950 /* ChatViewController.swift */; };
+		10D0296420988CE800565950 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D0296320988CE800565950 /* Extensions.swift */; };
+		470C17EEE991F7231D856984 /* Pods_WoodyWoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F844D0CD2F66A0C2D4146 /* Pods_WoodyWoo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		10D0293C209849A100565950 /* WoodyWoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoodyWoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D0293F209849A100565950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		10D02941209849A100565950 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10D02944209849A100565950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10D02946209849A200565950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10D02949209849A200565950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10D0294B209849A200565950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10D0295120984A6300565950 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		10D0295B20985ACE00565950 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		10D0295D20985B0500565950 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		10D0295F20988A1700565950 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		10D0296120988A2700565950 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		10D0296320988CE800565950 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		147F844D0CD2F66A0C2D4146 /* Pods_WoodyWoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoodyWoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		170A87D69CE25510AD791FA6 /* Pods-WoodyWoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoodyWoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WoodyWoo/Pods-WoodyWoo.debug.xcconfig"; sourceTree = "<group>"; };
+		9A13908CC7F14BD0220791FB /* Pods-WoodyWoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoodyWoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WoodyWoo/Pods-WoodyWoo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				470C17EEE991F7231D856984 /* Pods_WoodyWoo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				10D0293E209849A100565950 /* WoodyWoo */,
 				10D0293D209849A100565950 /* Products */,
+				C56A0F4E39F99AC469397B62 /* Pods */,
+				E8F89476067367272C4911F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,36 @@
 		10D0293E209849A100565950 /* WoodyWoo */ = {
 			isa = PBXGroup;
 			children = (
+				10D0296320988CE800565950 /* Extensions.swift */,
 				10D0293F209849A100565950 /* AppDelegate.swift */,
-				10D02941209849A100565950 /* ViewController.swift */,
+				10D0295B20985ACE00565950 /* SignInViewController.swift */,
+				10D0295D20985B0500565950 /* SignUpViewController.swift */,
+				10D0295F20988A1700565950 /* HomeViewController.swift */,
+				10D0296120988A2700565950 /* ChatViewController.swift */,
 				10D02943209849A100565950 /* Main.storyboard */,
-				10D02946209849A200565950 /* Assets.xcassets */,
 				10D02948209849A200565950 /* LaunchScreen.storyboard */,
 				10D0294B209849A200565950 /* Info.plist */,
+				10D0295120984A6300565950 /* GoogleService-Info.plist */,
+				10D02946209849A200565950 /* Assets.xcassets */,
 			);
 			path = WoodyWoo;
+			sourceTree = "<group>";
+		};
+		C56A0F4E39F99AC469397B62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				170A87D69CE25510AD791FA6 /* Pods-WoodyWoo.debug.xcconfig */,
+				9A13908CC7F14BD0220791FB /* Pods-WoodyWoo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8F89476067367272C4911F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				147F844D0CD2F66A0C2D4146 /* Pods_WoodyWoo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10D0294E209849A200565950 /* Build configuration list for PBXNativeTarget "WoodyWoo" */;
 			buildPhases = (
+				47C396D383856D7E54306842 /* [CP] Check Pods Manifest.lock */,
 				10D02938209849A100565950 /* Sources */,
 				10D02939209849A100565950 /* Frameworks */,
 				10D0293A209849A100565950 /* Resources */,
+				4DED65653D8BA7D2F9A3AD06 /* [CP] Embed Pods Frameworks */,
+				F99717AEDE7E77361B5C2A51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10D0294A209849A200565950 /* LaunchScreen.storyboard in Resources */,
+				10D0295220984A6300565950 /* GoogleService-Info.plist in Resources */,
 				10D02947209849A200565950 /* Assets.xcassets in Resources */,
 				10D02945209849A100565950 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +173,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47C396D383856D7E54306842 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WoodyWoo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DED65653D8BA7D2F9A3AD06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WoodyWoo/Pods-WoodyWoo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WoodyWoo/Pods-WoodyWoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F99717AEDE7E77361B5C2A51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WoodyWoo/Pods-WoodyWoo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10D02938209849A100565950 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10D02942209849A100565950 /* ViewController.swift in Sources */,
+				10D0295E20985B0500565950 /* SignUpViewController.swift in Sources */,
+				10D0296420988CE800565950 /* Extensions.swift in Sources */,
+				10D0295C20985ACE00565950 /* SignInViewController.swift in Sources */,
 				10D02940209849A100565950 /* AppDelegate.swift in Sources */,
+				10D0296220988A2700565950 /* ChatViewController.swift in Sources */,
+				10D0296020988A1700565950 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +385,7 @@
 		};
 		10D0294F209849A200565950 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170A87D69CE25510AD791FA6 /* Pods-WoodyWoo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +404,7 @@
 		};
 		10D02950209849A200565950 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A13908CC7F14BD0220791FB /* Pods-WoodyWoo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
